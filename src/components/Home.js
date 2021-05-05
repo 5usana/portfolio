@@ -1,12 +1,29 @@
 import React from 'react';
 import NavBar from './NavBar';
+import Footer from './Footer';
+import styled from 'styled-components';
+
+const MainDiv = styled.div`
+    border-radius: 20px;
+    width: 350px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	text-align: center;
+
+	&.mobile {
+		width: 180px;
+	}
+`;
 
 function Home(props) {
     return (
-        <div>
+        <>
             <NavBar />
-            <p>Building my portfolio!</p>
-        </div>
+            <MainDiv>
+                <p>Building my portfolio!</p>
+            </MainDiv>
+            <Footer />
+        </>
     );
 }
 
