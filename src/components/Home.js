@@ -2,6 +2,7 @@ import React from 'react';
 import NavBar from './NavBar';
 import Footer from './Footer';
 import styled from 'styled-components';
+import Projects from './Projects';
 
 const MainDiv = styled.div`
     border-radius: 20px;
@@ -21,6 +22,7 @@ function Home(props) {
             <NavBar />
             <MainDiv>
                 <p>Building my portfolio!</p>
+                <Projects />
             </MainDiv>
             <Footer />
         </>
