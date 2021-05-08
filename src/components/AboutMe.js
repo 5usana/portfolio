@@ -14,13 +14,13 @@ const Section = styled.section`
 `;
 
 const MyAvatar = styled.figure`
-	width: 280px;
+	width: 100px;
 	margin: 0 auto;
-	margin-bottom: 24px;
+	// margin-bottom: 24px;
 	text-align: center;
 
 	&.mobile {
-		width: 180px;
+		width: 80px;
 	}
 `;
 
