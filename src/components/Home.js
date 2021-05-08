@@ -5,15 +5,11 @@ import styled from 'styled-components';
 import Projects from './Projects';
 
 const MainDiv = styled.div`
-    border-radius: 20px;
-    width: 350px;
-	margin: 0 auto;
-	margin-bottom: 10px;
+    display: flex;
+	flex-direction: row;
+	background-color: yellow;
+	flex-flow: row;	
 	text-align: center;
-
-	&.mobile {
-		width: 180px;
-	}
 `;
 
 function Home(props) {
@@ -21,7 +17,7 @@ function Home(props) {
         <>
             <NavBar />
             <MainDiv>
-                <p>Building my portfolio!</p>
+                <h1>Building my portfolio!</h1>
                 <Projects />
             </MainDiv>
             <Footer />
