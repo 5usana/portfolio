@@ -13,6 +13,37 @@ const Main = styled.div`
 	}
 `;
 
+const ButtonBoat = styled.button`
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 12px 25px;
+    border: 2px solid #84A59D;
+    border-radius: 30px;
+    background-color: Transparent;
+    transition: .3s;
+    color: #84A59D;
+    font-size: 12px;
+    font-weight: 800;
+    text-align: left;
+    letter-spacing: 1px;
+`;
+
+const ButtonB = styled.button`
+    margin-top: 20px;
+    padding: 12px 25px;
+    border: 1px solid #F6BD60;
+    border-radius: 30px;
+    background-color: #F6BD60;
+    transition: .3s;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: left;
+    letter-spacing: 1px;
+`;
+
+
+
 function Projects(props) {
     return (
         <Main>
@@ -23,11 +54,12 @@ function Projects(props) {
 
             <h2> Project 3</h2>
             <p>The BOAT Dashboard app was built mimicking a team-client collaborative interaction, leveraging the MERN full-stack for a dashboard application integrating functionality from a custom-made API.</p>
-            <a href='https://boat-dashboard.herokuapp.com/' target='blank'>BOAT</a>
+            <a href='https://boat-dashboard.herokuapp.com/'>
+            <ButtonB>BOAT</ButtonB>    
+            </a>
             
             <a href='https://github.com/big-brainers/boat-frontend'>
-
-            <button>Repository</button>
+            <ButtonBoat>Repository</ButtonBoat>
             </a>
 
             <h2> Project 2 </h2>
