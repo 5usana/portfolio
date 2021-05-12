@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
+
 const Main = styled.div`
     border-radius: 20px;
     width: 650px;
@@ -121,39 +122,39 @@ function Projects(props) {
     return (
         <Main>
             <br></br>
-            <h2> Project 4 </h2>
+            <h1> Project 4 </h1>
             <p>Word Vomit is a one liner blog to document events most worthy of remembrance.  Here you are encouraged to write out your thoughts, of the day in only a line or so without the pressure of filling out an entire page.</p>
-            <a href='https://wvblog.herokuapp.com/' target='blank'>
+            <a rel='noopener noreferrer' href='https://wvblog.herokuapp.com/' target='blank'>
             <ButtonC>WV Blog Site</ButtonC>    
             </a>
-            <a href='https://wvblog.herokuapp.com/'>
+            <a rel='noopener noreferrer' href='https://github.com/5usana/wvblog' target='blank'>
             <ButtonP4>Repository</ButtonP4>
             </a>
 
-            <h2> Project 3</h2>
+            <h1> Project 3</h1>
             <p>The BOAT Dashboard app was built mimicking a team-client collaborative interaction, leveraging the MERN full-stack for a dashboard application integrating functionality from a custom-made API.</p>
-            <a href='https://boat-dashboard.herokuapp.com/'>
+            <a rel='noopener noreferrer' href='https://boat-dashboard.herokuapp.com/' target='blank'>
             <ButtonB>BOAT Site</ButtonB>    
             </a>
-            <a href='https://github.com/big-brainers/boat-frontend'>
+            <a rel='noopener noreferrer' href='https://github.com/big-brainers/boat-frontend' target='blank'>
             <ButtonP3>Repository</ButtonP3>
             </a>
 
-            <h2> Project 2 </h2>
+            <h1> Project 2 </h1>
             <p>Unsolicited Advice from friends or strangers can get tiresome so why not let my app decide for you? Don't like the advice you get? That's ok, give it another go and find the adice you came for!</p>
-            <a href='https://unsolicited-advice.herokuapp.com/'>
+            <a rel='noopener noreferrer' href='https://unsolicited-advice.herokuapp.com/'  target='blank'>
             <ButtonA>Unsolicited Advice Site</ButtonA> 
             </a>
-            <a href='https://github.com/5usana/Unsolicited-Advice'>
+            <a rel='noopener noreferrer' href='https://github.com/5usana/Unsolicited-Advice'  target='blank'>
             <ButtonP2>Repository</ButtonP2>
             </a>
 
-            <h2> Project 1 </h2>
+            <h1> Project 1 </h1>
             <p>If you are a fan of the iconic series Twin Peaks then this 10 question quiz is for you! This is a Self-Scoring Trivia game for my Unit 1 Project!</p>
-            <a href='https://wvblog.herokuapp.com/' target='blank'>
+            <a rel='noopener noreferrer' href='https://wvblog.herokuapp.com/' target='blank'>
             <ButtonC>Twin Peaks Trivia Site</ButtonC>    
             </a>
-            <a href='https://github.com/big-brainers/boat-frontend'>
+            <a rel='noopener noreferrer' href='https://github.com/big-brainers/boat-frontend' target='blank'>
             <ButtonP1>Repository</ButtonP1>
             </a>
 
