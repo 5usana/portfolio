@@ -7,7 +7,6 @@ const NavContainer = styled.section`
 	display: flex;
 	background-color: #84A59D;
 	flex-flow: row;	
-	// height: 70px;
 	width: 100vw;
 	text-align: center;
     left: 0;
@@ -68,6 +67,11 @@ function NavBar() {
 			<Link style={{ textDecoration: 'none' }}  to='/about'>
 				<HeaderTwo>
 					About Me	
+				</HeaderTwo>
+			</Link>
+			<Link style={{ textDecoration: 'none' }}  to='/projects'>
+				<HeaderTwo>
+					Projects	
 				</HeaderTwo>
 			</Link>
 			

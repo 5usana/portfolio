@@ -2,8 +2,9 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { createGlobalStyle } from 'styled-components';
 import Home from './components/Home';
-import AboutMe from './components/AboutMe';
+// import AboutMe from './components/AboutMe';
 import img from './images/popcorn.jpg';
+import Projects from './components/Projects';
 
 
 const GlobalStyle = createGlobalStyle`
@@ -24,7 +25,8 @@ function App() {
       <GlobalStyle />
         <Switch>
           <Route exact path='/' render={Home} />
-          <Route path='/about' component={AboutMe} />
+          {/* <Route path='/about' component={AboutMe} /> */}
+          <Route path='/projects' component={Projects} />
         </Switch>
       </Router>
     </>
