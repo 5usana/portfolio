@@ -12,7 +12,8 @@ body {
   padding: 0;
   box-sizing: border-box;
   background-image: url(${img});
-  background-color: teal; 
+  background-color: white; 
+  font-family: 'Shadows Into Light', cursive;
 }
 `;
 
