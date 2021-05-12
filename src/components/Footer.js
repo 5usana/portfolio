@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 const FooterStyle = styled.footer`
@@ -26,9 +25,9 @@ function Footer() {
 		<FooterStyle>
 			<hr />
 			<p className='footer-text'>{currentyear} Copyright ⓒ </p>
-			<Link className='footer-text' to='/about'>
-				5usana
-			</Link>
+			<a rel='noopener noreferrer' href='https://github.com/5usana' target='blank'>
+            5usana
+            </a>
 		</FooterStyle>
 	);
 }
