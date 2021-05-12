@@ -17,7 +17,6 @@ function Home(props) {
         <>
             <NavBar />
             <MainDiv>
-                <h1>Building my portfolio!</h1>
                 <Projects />
             </MainDiv>
             <Footer />
