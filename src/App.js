@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { createGlobalStyle } from 'styled-components';
 import Home from './components/Home';
 import AboutMe from './components/AboutMe';
-import img from './images/wall.jpg';
+import img from './images/brick.jpg';
 
 
 const GlobalStyle = createGlobalStyle`

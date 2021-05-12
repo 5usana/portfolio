@@ -7,7 +7,7 @@ import Projects from './Projects';
 const MainDiv = styled.div`
     display: flex;
 	flex-direction: row;
-	background-color: yellow;
+	// background-color: yellow;
 	flex-flow: row;	
 	text-align: center;
 `;
