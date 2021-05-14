@@ -15,36 +15,33 @@ const NavContainer = styled.section`
 `;
 
 const Twitter = styled.a`
-	color: red;
 	background-color: #F6BD60;
-	margin: 10px 2px 5px 2px;
 `;
 
 const LinkedIn = styled.a`
-	color: red;
 	background-color: #F7EDE2;
-	margin: 10px 2px 5px 2px;
 `;
 
 const Instagram = styled.a`
-	color: red;
 	background-color: #F5CAC3;
-	margin: 10px 2px 5px 2px;
 `;
 
 const HeaderOne = styled.h1`
-	margin: 5px 40px 5px 40px;
+	margin: 5px 40px 15px 10px;
 	color: black;
-	font-size: 2em;
+	font-size: 2.2em;
 	background-color: #84A59D;
+	text-alight: center;
 `;
 
 const HeaderTwo = styled.h2`
-	margin: 30px 0px 2px 0px;
+	// margin: 30px 0px 2px 0px;
 	color: black;
-	font-size: 1.5em;
-	background-color: #F28482;
+	font-size: 1.4em;
 	padding: 1px;
+	margin: 10px 0px 5px 30px;
+	position absolute;
+	right: 0;
 `;
 
 
@@ -64,11 +61,11 @@ function NavBar() {
 					Susana Martins
 				</HeaderOne>
 			</Link>
-			<Link style={{ textDecoration: 'none' }}  to='/about'>
+			{/* <Link style={{ textDecoration: 'none' }}  to='/about'>
 				<HeaderTwo>
 					About Me	
 				</HeaderTwo>
-			</Link>
+			</Link> */}
 			<Link style={{ textDecoration: 'none' }}  to='/projects'>
 				<HeaderTwo>
 					Projects	
