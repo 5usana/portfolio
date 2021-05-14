@@ -2,10 +2,11 @@ import React from 'react';
 import styled from 'styled-components';
 
 const FooterStyle = styled.footer`
-	position: fixed;
+	display: flex;
+	flex-flow: row;	
+	// position: fixed;
 	display: block;
 	bottom: 0;
-	// color: #000000;
 	height: 70px;
 	width: 100vw;
 	text-align: center;
