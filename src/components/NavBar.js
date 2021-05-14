@@ -26,6 +26,10 @@ const Instagram = styled.a`
 	background-color: #F5CAC3;
 `;
 
+const GitHub = styled.a`
+	background-color: #f28482;
+`;
+
 const HeaderOne = styled.h1`
 	margin: 5px 40px 15px 10px;
 	color: black;
@@ -53,7 +57,11 @@ function NavBar() {
 
 			<LinkedIn href="https://www.linkedin.com/in/susanacmartins/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="susanacmartins" height="30" width="40" /></LinkedIn>
 
- 			<Instagram href="https://www.instagram.com/susanacodes/?hl=en" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="susanawashere" height="30" width="40" /></Instagram>	
+ 			<Instagram href="https://www.instagram.com/susanacodes/?hl=en" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="susanacodes" height="30" width="40" /></Instagram>	
+
+			 <GitHub href="https://github.com/5usana" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" alt="5usana" height="30" width="40" /></GitHub>	
+
+			 
 		
 
 			<Link style={{ textDecoration: 'none' }} to='/'>
