@@ -8,7 +8,7 @@ import NavBar from './NavBar';
 
 const Main = styled.div`
     border-radius: 20px;
-    width: 650px;
+    width: 75vw;
 	margin: 0 auto;
 	margin-bottom: 10px;
 	text-align: center;
@@ -140,7 +140,7 @@ function Projects(props) {
                 <h1> Project 4 </h1>
                 <Project4 src={Img} alt='Project 4' />
         
-                <p>Word Vomit is a one liner blog to document events most worthy of remembrance.  Here you are encouraged to write out your thoughts, of the day in only a line or so without the pressure of filling out an entire page.</p>
+                <h3>Word Vomit is a one liner blog to document events most worthy of remembrance.  Here you are encouraged to write out your thoughts, of the day in only a line or so without the pressure of filling out an entire page.</h3>
                 <a rel='noopener noreferrer' href='https://wvblog.herokuapp.com/' target='blank'>
                 <ButtonC>WV Blog Site</ButtonC>    
                 </a>
@@ -150,7 +150,7 @@ function Projects(props) {
 
                 <h1> Project 3</h1>
                 <Project3 src={Img2} alt='Project 3' />
-                <p>The BOAT Dashboard app was built mimicking a team-client collaborative interaction, leveraging the MERN full-stack for a dashboard application integrating functionality from a custom-made API.</p>
+                <h3>The BOAT Dashboard app was built mimicking a team-client collaborative interaction, leveraging the MERN full-stack for a dashboard application integrating functionality from a custom-made API.</h3>
                 <a rel='noopener noreferrer' href='https://boat-dashboard.herokuapp.com/' target='blank'>
                 <ButtonB>BOAT Site</ButtonB>    
                 </a>
@@ -160,7 +160,7 @@ function Projects(props) {
 
                 <h1> Project 2 </h1>
                 <img src={Img3} alt='Project 2' />
-                <p>Unsolicited Advice from friends or strangers can get tiresome so why not let my app decide for you? Don't like the advice you get? That's ok, give it another go and find the adice you came for!</p>
+                <h3>Unsolicited Advice from friends or strangers can get tiresome so why not let my app decide for you? Don't like the advice you get? That's ok, give it another go and find the adice you came for!</h3>
                 <a rel='noopener noreferrer' href='https://unsolicited-advice.herokuapp.com/'  target='blank'>
                 <ButtonA>Unsolicited Advice Site</ButtonA> 
                 </a>
@@ -170,7 +170,7 @@ function Projects(props) {
 
                 <h1> Project 1 </h1>
                 <img src={Img4} alt='Project 1' />
-                <p>If you are a fan of the iconic series Twin Peaks then this 10 question quiz is for you! This is a Self-Scoring Trivia game for my Unit 1 Project!</p>
+                <h3>If you are a fan of the iconic series Twin Peaks then this 10 question quiz is for you! This is a Self-Scoring Trivia game for my Unit 1 Project!</h3>
                 <a rel='noopener noreferrer' href='https://wvblog.herokuapp.com/' target='blank'>
                 <ButtonC>Twin Peaks Trivia Site</ButtonC>    
                 </a>
