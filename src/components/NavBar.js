@@ -40,11 +40,12 @@ const HeaderOne = styled.h1`
 `;
 
 const HeaderTwo = styled.h2`
-	margin: 30px 0px 2px 0px;
+	// margin: 30px 0px 2px 0px;
 	color: black;
 	font-size: 1.5em;
 	background-color: #F28482;
 	padding: 1px;
+	margin: 10px 2px 5px 2px;
 `;
 
 
@@ -64,11 +65,11 @@ function NavBar() {
 					Susana Martins
 				</HeaderOne>
 			</Link>
-			<Link style={{ textDecoration: 'none' }}  to='/about'>
+			{/* <Link style={{ textDecoration: 'none' }}  to='/about'>
 				<HeaderTwo>
 					About Me	
 				</HeaderTwo>
-			</Link>
+			</Link> */}
 			<Link style={{ textDecoration: 'none' }}  to='/projects'>
 				<HeaderTwo>
 					Projects	
