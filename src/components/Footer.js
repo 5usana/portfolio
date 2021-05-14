@@ -7,7 +7,7 @@ const FooterStyle = styled.footer`
 	// position: fixed;
 	display: block;
 	bottom: 0;
-	height: 70px;
+	height: 20px;
 	width: 100vw;
 	text-align: center;
 

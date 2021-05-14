@@ -12,6 +12,7 @@ const NavContainer = styled.section`
     left: 0;
     top: 0;
     right: 0;
+	position: fixed;
 `;
 
 const Twitter = styled.a`
@@ -33,17 +34,16 @@ const GitHub = styled.a`
 const HeaderOne = styled.h1`
 	margin: 5px 40px 15px 10px;
 	color: black;
-	font-size: 2.2em;
+	font-size: 2em;
 	background-color: #84A59D;
 	text-alight: center;
 `;
 
 const HeaderTwo = styled.h2`
-	// margin: 30px 0px 2px 0px;
 	color: black;
-	font-size: 1.4em;
+	font-size: 1.2em;
 	padding: 1px;
-	margin: 10px 0px 5px 30px;
+	margin: 0px 0px 5px 30px;
 	position absolute;
 	right: 0;
 `;
@@ -74,7 +74,7 @@ function NavBar() {
 					About Me	
 				</HeaderTwo>
 			</Link> */}
-			<Link style={{ textDecoration: 'none' }}  to='/projects'>
+			<Link to='/projects'>
 				<HeaderTwo>
 					Projects	
 				</HeaderTwo>
