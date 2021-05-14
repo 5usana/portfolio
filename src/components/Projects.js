@@ -131,13 +131,17 @@ const Project3 = styled.img`
     background-color: red;
 `;
 
+const HeaderOne = styled.h1`
+    margin-top: 70px;
+`;
+
 function Projects(props) {
     return (
         <> 
             <NavBar />
             <Main>
                 <br></br>
-                <h1>Word Vomit Blog</h1>
+                <HeaderOne>Word Vomit Blog</HeaderOne>
                 <Project4 src={Img} alt='Word Vomit Blog' />
         
                 <h3>Word Vomit is a one liner blog to document events most worthy of remembrance.  Here you are encouraged to write out your thoughts, of the day in only a line or so without the pressure of filling out an entire page.</h3>

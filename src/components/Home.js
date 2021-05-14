@@ -4,13 +4,10 @@ import Footer from './Footer';
 import styled from 'styled-components';
 
 const MainDiv = styled.div`
-    // display: flex;
-	// flex-direction: row;
-	// flex-flow: row;	
     border-radius: 20px;
     width: 75vw;
 	margin: 0 auto;
-	margin-bottom: 10px;
+    // margin-top: 90px;
 	text-align: center;
     object-fit: scale-down;
 
@@ -20,16 +17,13 @@ const MainDiv = styled.div`
 `;
 
 const Greeting = styled.h3`
-    display: flex;
-	flex-direction: row;
 	background-color: #F7EDE2;
     opacity: 0.5;
-    flex-flow: row;	
+    margin-top: 120px;	
 	width: 65vw;
 	text-align: center;
     display: inline-block;
-
-    
+    object-fit: scale-down;
 `;
 
 function Home(props) {
@@ -46,7 +40,7 @@ function Home(props) {
                 <br></br>
                 <br></br>
                 My experience involves Full-stack development although I have been leaning more heavily towards front-end development.  Currently pushing my creative drive developing skill sets needed to thrive in an environment where technical innovation is vital for business success. 
-                <h2> Languages and Tools: </h2>
+                <h3> Languages and Tools: </h3>
                 <img alt="Javascript" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
 
                 <img alt="React" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" />
