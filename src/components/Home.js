@@ -19,7 +19,7 @@ const MainDiv = styled.div`
 	// }
 `;
 
-const Greeting = styled.p`
+const Greeting = styled.h3`
     display: flex;
 	flex-direction: row;
 	background-color: #F7EDE2;
