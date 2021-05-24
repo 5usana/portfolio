@@ -174,7 +174,7 @@ function Projects(props) {
                 <HeaderOne>Currently working on... Quisbee</HeaderOne>
                 <img src={Img5} alt='Quisbee' />
         
-                <h3>An educational quiz app for children. This 3-day sprint brought together UXDI, DSI and SEI job seekers divided into teams with representation from each discipline. Look out for updates, we will continue to enhance this app post May's Hackathon..</h3>
+                <h3>An educational quiz app for children. This 3-day sprint brought together UXDI, DSI and SEI job seekers divided into teams with representation from each discipline. Look out for updates, we will continue to enhance this app post May's Hackathon.</h3>
                 <a rel='noopener noreferrer' href='https://quisbee.netlify.app/' target='blank'>
                 <ButtonD>Site</ButtonD>    
                 </a>
