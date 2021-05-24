@@ -19,7 +19,7 @@ const MainDiv = styled.div`
 const Greeting = styled.h3`
 	background-color: #F7EDE2;
     opacity: 0.5;
-    margin-top: 120px;	
+    margin-top: 140px;	
 	width: 65vw;
 	text-align: center;
     display: inline-block;
