@@ -4,6 +4,7 @@ import Img from '../images/landingMobile.png';
 import Img2 from '../images/HomePage.png';
 import Img3 from '../images/Project2.png';
 import Img4 from '../images/Project1.png';
+import Img5 from '../images/Quisbee.png';
 import NavBar from './NavBar';
 
 const Main = styled.div`
@@ -17,6 +18,21 @@ const Main = styled.div`
 	&.mobile {
 		width: 180px;
 	}
+`;
+
+const ButtonP5 = styled.button`
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 12px 25px;
+    border: 2px solid #84A59D;
+    border-radius: 30px;
+    background-color: Transparent;
+    transition: .3s;
+    color: #84A59D;
+    font-size: 12px;
+    font-weight: 800;
+    text-align: left;
+    letter-spacing: 1px;
 `;
 
 const ButtonP4 = styled.button`
@@ -79,6 +95,20 @@ const ButtonP1 = styled.button`
     letter-spacing: 1px;
     `;
 
+const ButtonD = styled.button`
+    margin-top: 20px;
+    padding: 12px 25px;
+    border: 1px solid #F6BD60;
+    border-radius: 30px;
+    background-color: #F6BD60;
+    transition: .3s;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: left;
+    letter-spacing: 1px;
+`;    
+
 const ButtonC = styled.button`
     margin-top: 20px;
     padding: 12px 25px;
@@ -140,6 +170,18 @@ function Projects(props) {
         <> 
             <NavBar />
             <Main>
+            <br></br>
+                <h1>Currently working on- Quisbee</h1>
+                <img src={Img5} alt='Quisbee' />
+        
+                <h3>An educational quiz app for children. This 3-day sprint brought together UXDI, DSI and SEI job seekers divided into teams with representation from each discipline. Look out for updates, we will continue to enhance this app post May's Hackathon..</h3>
+                <a rel='noopener noreferrer' href='https://quisbee.netlify.app/' target='blank'>
+                <ButtonD>Site</ButtonD>    
+                </a>
+                <a rel='noopener noreferrer' href='https://github.com/Juicy-Teachers/education_thunder' target='blank'>
+                <ButtonP5>Repository</ButtonP5>
+                </a>
+
                 <br></br>
                 <HeaderOne>Word Vomit Blog</HeaderOne>
                 <Project4 src={Img} alt='Word Vomit Blog' />
