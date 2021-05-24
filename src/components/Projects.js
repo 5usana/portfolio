@@ -171,7 +171,7 @@ function Projects(props) {
             <NavBar />
             <Main>
             <br></br>
-                <h1>Currently working on- Quisbee</h1>
+                <HeaderOne>Currently working on... Quisbee</HeaderOne>
                 <img src={Img5} alt='Quisbee' />
         
                 <h3>An educational quiz app for children. This 3-day sprint brought together UXDI, DSI and SEI job seekers divided into teams with representation from each discipline. Look out for updates, we will continue to enhance this app post May's Hackathon..</h3>
@@ -183,7 +183,7 @@ function Projects(props) {
                 </a>
 
                 <br></br>
-                <HeaderOne>Word Vomit Blog</HeaderOne>
+                <h1>Word Vomit Blog</h1>
                 <Project4 src={Img} alt='Word Vomit Blog' />
         
                 <h3>Word Vomit is a one liner blog to document events most worthy of remembrance.  Here you are encouraged to write out your thoughts, of the day in only a line or so without the pressure of filling out an entire page.</h3>
