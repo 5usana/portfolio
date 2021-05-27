@@ -1,6 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import NavBar from './NavBar';
-import Footer from './Footer';
+// import Footer from './Footer';
 import styled from 'styled-components';
 
 const MainDiv = styled.div`
@@ -17,8 +18,9 @@ const MainDiv = styled.div`
 `;
 
 const Greeting = styled.h3`
-	background-color: #F7EDE2;
+	background-color: #FFF;
     opacity: 0.5;
+    padding: 10px;
     margin-top: 140px;	
 	width: 65vw;
 	text-align: center;
@@ -71,8 +73,14 @@ function Home(props) {
                 <br></br>
                 Get in touch: susana.debugs@gmail.com
                 </Greeting>
+                <Link to='/projects'>
+				<button>
+					Projects	
+				</button>
+			</Link>
+			
             </MainDiv>
-            <Footer />
+            {/* <Footer /> */}
         </>
     );
 }

@@ -5,7 +5,7 @@ import styled from 'styled-components';
 
 const NavContainer = styled.section`
 	display: flex;
-	background-color: #84A59D;
+	background-color: #fff;
 	flex-flow: row;	
 	width: 100vw;
 	text-align: center;
@@ -16,26 +16,29 @@ const NavContainer = styled.section`
 `;
 
 const Twitter = styled.a`
-	background-color: #F6BD60;
+	background-color: #fff;
+	margin: 20px 0 0 0;
 `;
 
 const LinkedIn = styled.a`
-	background-color: #F7EDE2;
+	background-color: #fff;
+	margin: 20px 0 0 0;
 `;
-
 const Instagram = styled.a`
-	background-color: #F5CAC3;
+	background-color: #fff;
+	margin: 20px 0 0 0;
 `;
 
 const GitHub = styled.a`
-	background-color: #f28482;
+	background-color:#fff;
+	margin: 20px 0 0 0;
 `;
 
 const HeaderOne = styled.h1`
-	margin: 5px 40px 15px 10px;
+	margin: 5px 40px 15px 35px;
 	color: black;
-	font-size: 2em;
-	background-color: #84A59D;
+	font-size: 2.5em;
+	background-color: #fff;
 	text-alight: center;
 `;
 
@@ -74,12 +77,12 @@ function NavBar() {
 					About Me	
 				</HeaderTwo>
 			</Link> */}
-			<Link to='/projects'>
+			{/* <Link to='/projects'>
 				<HeaderTwo>
 					Projects	
 				</HeaderTwo>
 			</Link>
-			
+			 */}
 		</NavContainer>
     );
 }
